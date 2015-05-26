@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.0.4.final using JasperReports Library version 6.0.4  -->
+<!-- 2015-05-26T10:39:35 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Simple_Blue_Table_Based" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d4a1d5eb-82dd-412f-a620-202e4bdf9dba">
+	<property name="template.engine" value="tabular_template"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<style name="Table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+			<topPen lineWidth="1.0" lineColor="#000000"/>
+			<leftPen lineWidth="1.0" lineColor="#000000"/>
+			<bottomPen lineWidth="1.0" lineColor="#000000"/>
+			<rightPen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TH" mode="Transparent" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Transparent" forecolor="#B89F7D" backcolor="#70A9C6">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Transparent" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="tableDataset" uuid="6b901af7-f916-4e37-a642-0236a41f2341">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<parameter name="numero" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="nombre_comunidad" class="java.lang.String"/>
+		<field name="numero" class="java.lang.String"/>
+		<field name="nombre_propietario" class="java.lang.String"/>
+		<field name="apellidos" class="java.lang.String"/>
+		<field name="fecha" class="java.util.Date"/>
+		<field name="agua" class="java.math.BigDecimal"/>
+		<field name="luz" class="java.math.BigDecimal"/>
+		<field name="basura" class="java.math.BigDecimal"/>
+		<field name="zonas_comunes" class="java.math.BigDecimal"/>
+		<field name="otros" class="java.math.BigDecimal"/>
+		<field name="total" class="java.math.BigDecimal"/>
+	</subDataset>
+	<parameter name="comunidad" class="java.lang.String"/>
+	<parameter name="iva_agua" class="java.lang.String"/>
+	<parameter name="iva_incluido" class="java.lang.String"/>
+	<parameter name="iva_luz" class="java.lang.String"/>
+	<parameter name="iva_basura" class="java.lang.String"/>
+	<parameter name="iva_zonas" class="java.lang.String"/>
+	<parameter name="iva_otros" class="java.lang.String"/>
+	<parameter name="importeIVA" class="java.math.BigDecimal"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="nombre_comunidad" class="java.lang.String"/>
+	<field name="numero" class="java.lang.String"/>
+	<field name="nombre_propietario" class="java.lang.String"/>
+	<field name="apellidos" class="java.lang.String"/>
+	<field name="fecha" class="java.util.Date"/>
+	<field name="agua" class="java.math.BigDecimal"/>
+	<field name="luz" class="java.math.BigDecimal"/>
+	<field name="basura" class="java.math.BigDecimal"/>
+	<field name="zonas_comunes" class="java.math.BigDecimal"/>
+	<field name="otros" class="java.math.BigDecimal"/>
+	<field name="total" class="java.math.BigDecimal"/>
+	<variable name="nombre_comunidad1" class="java.lang.Integer" calculation="DistinctCount">
+		<variableExpression><![CDATA[$F{nombre_comunidad}]]></variableExpression>
+	</variable>
+	<title>
+		<band height="70">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="90" backcolor="#006699" uuid="6321f5e3-86eb-444f-acc1-8daaaa0d6c60"/>
+				<staticText>
+					<reportElement x="20" y="20" width="234" height="43" forecolor="#FFFFFF" uuid="9e48917a-7b59-4ffd-baad-725f45563194"/>
+					<textElement>
+						<font size="34" isBold="true"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="40" y="26" width="200" height="30" uuid="6aff8985-7dcd-43ce-a673-4d45c8899efa"/>
+					<textElement>
+						<font size="16"/>
+					</textElement>
+					<text><![CDATA[Listado de Impagos]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="330" y="24" width="80" height="30" uuid="34f4f48e-3a49-4476-a164-94a97fd49f18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<text><![CDATA[Comunidad:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="410" y="25" width="141" height="34" uuid="6124cb04-baf2-476b-ba72-c70e7c6f4f64"/>
+					<textElement>
+						<font fontName="SansSerif" size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{comunidad}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</title>
+	<detail>
+		<band height="201">
+			<textField>
+				<reportElement x="90" y="2" width="100" height="18" uuid="da92015e-30d9-47d4-80db-3ec8bc3fe082"/>
+				<textFieldExpression><![CDATA[$F{numero}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="30" width="40" height="18" uuid="f5416201-b3df-4b71-91c8-38b029d77d16"/>
+				<textFieldExpression><![CDATA[$F{nombre_propietario}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="30" width="100" height="18" uuid="5db67218-c516-4f22-93b9-7302b119a0f1"/>
+				<textFieldExpression><![CDATA[$F{apellidos}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="417" y="0" width="100" height="18" uuid="89824b85-4334-4af0-97b5-989557bc0624"/>
+				<textFieldExpression><![CDATA[$F{fecha}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="70" width="60" height="20" uuid="29ad0e27-852b-4899-adf4-0f6ec4163367"/>
+				<textFieldExpression><![CDATA[$F{agua} + " \u20AC"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="100" width="50" height="20" uuid="2033f0e5-c427-406a-b639-34c0b2521d51"/>
+				<textFieldExpression><![CDATA[$F{luz} + " \u20AC"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="102" width="60" height="20" uuid="4682b15e-f2f5-44c8-9eac-15baf61739ff"/>
+				<textFieldExpression><![CDATA[$F{basura} + " \u20AC"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="274" y="70" width="96" height="18" uuid="7937892e-e8fc-4aff-9c5e-f7ce91719c49"/>
+				<textFieldExpression><![CDATA[$F{zonas_comunes} + " \u20AC"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="406" y="69" width="50" height="20" uuid="25715646-50a4-40e7-a7b7-2864e2a89c16"/>
+				<textFieldExpression><![CDATA[$F{otros} + " \u20AC"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="32" y="160" width="78" height="20" uuid="5dcedb04-363a-41ad-8269-921140a18c36"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total} + " \u20AC"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="2" width="90" height="18" uuid="a1a1839b-3d38-4e08-a416-a1fa7f830e80"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Número vivienda:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="383" y="0" width="30" height="20" uuid="a845a4f3-d444-42b0-a507-3f1e60e405ed"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fecha:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="30" width="100" height="20" uuid="b4cc67dc-2f78-4b87-9c16-d42dddcd0a06"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nombre propietario:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="70" width="30" height="20" uuid="68a95e9f-8fe0-4f5f-bcd7-5cce8ef6374f"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Agua:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="100" width="30" height="20" uuid="55c12c71-daaf-4cfc-903b-c7727575d4f1"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Luz:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="192" y="102" width="40" height="20" uuid="33781ee8-086c-4dee-a098-12a36732cc4a"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Basura:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="192" y="70" width="80" height="18" uuid="80b52ff6-632d-476e-abc7-5f3e5aef5c26"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Zonas comunes:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="447" y="69" width="30" height="20" uuid="239c2d30-52be-4ac2-b08b-59e0889e8deb"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Otros:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="160" width="30" height="20" uuid="4e81985a-7f4d-4dd4-a227-57c7f0f9f53c"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total:]]></text>
+			</staticText>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="200" width="555" height="1" uuid="9ec59a5f-d3c8-4041-8d44-b246e9d0ca6d">
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="90" y="70" width="60" height="18" uuid="e556a5b0-9553-4275-8c12-74a4d1169836"/>
+				<textFieldExpression><![CDATA[$P{iva_agua}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="160" width="100" height="20" uuid="ddedc1ce-c6cd-4096-8aff-b2b302cb02d5"/>
+				<textFieldExpression><![CDATA[$P{iva_incluido}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="100" width="60" height="20" uuid="df7c9bc8-f58d-405d-84ea-a0185ae0e3cc"/>
+				<textFieldExpression><![CDATA[$P{iva_luz}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="292" y="102" width="70" height="18" uuid="0bbef8e3-0922-41a8-8633-00ba08e87c8c"/>
+				<textFieldExpression><![CDATA[$P{iva_basura}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="336" y="69" width="70" height="18" uuid="c0d9cd5e-bbf9-49d7-b25b-0686d077aae9"/>
+				<textFieldExpression><![CDATA[$P{iva_zonas}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="460" y="68" width="60" height="20" uuid="4b601d84-9525-4e36-b8e0-6bc9d2f7e128"/>
+				<textFieldExpression><![CDATA[$P{iva_otros}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="230" y="160" width="80" height="20" uuid="7dd857e9-9a18-4b11-8df2-7f66de9cd2f1"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Importe IVA:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="313" y="160" width="77" height="20" uuid="8fe8248a-8394-4c86-b757-403a308d10bf"/>
+				<textFieldExpression><![CDATA[$P{importeIVA}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="56">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#E6E6E6" uuid="57043d8f-e213-493f-ae44-66787b0101c1"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["P\u00E1gina "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#E6E6E6" uuid="d17f5aef-fab8-407a-993d-07adadb4fbb9"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="4" width="100" height="13" uuid="3a8b5678-0608-4f2c-818a-f65faaa6fe29"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
